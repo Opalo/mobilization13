@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>755325B4-AF19-4E05-AC0D-A9F5CB7AC336</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MobiOpal</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F54678E0-221D-4A0E-B3BA-E9F40745EDEB</key>
+		<string>ssh://github.com/Opalo/mobilization13.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MobiOpal/MobiOpal.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F54678E0-221D-4A0E-B3BA-E9F40745EDEB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/Opalo/mobilization13.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F54678E0-221D-4A0E-B3BA-E9F40745EDEB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F54678E0-221D-4A0E-B3BA-E9F40745EDEB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mobilization13</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A0C1462180DA81D003FD379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0C1461180DA81D003FD379 /* Foundation.framework */; };
+		6A0C1464180DA81D003FD379 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0C1463180DA81D003FD379 /* CoreGraphics.framework */; };
+		6A0C1466180DA81D003FD379 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0C1465180DA81D003FD379 /* UIKit.framework */; };
+		6A0C146C180DA81D003FD379 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A0C146A180DA81D003FD379 /* InfoPlist.strings */; };
+		6A0C146E180DA81D003FD379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C146D180DA81D003FD379 /* main.m */; };
+		6A0C1472180DA81D003FD379 /* MOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C1471180DA81D003FD379 /* MOAppDelegate.m */; };
+		6A0C1475180DA81D003FD379 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0C1473180DA81D003FD379 /* Main_iPhone.storyboard */; };
+		6A0C1478180DA81D003FD379 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0C1476180DA81D003FD379 /* Main_iPad.storyboard */; };
+		6A0C147B180DA81D003FD379 /* MOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C147A180DA81D003FD379 /* MOViewController.m */; };
+		6A0C147D180DA81D003FD379 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A0C147C180DA81D003FD379 /* Images.xcassets */; };
+		6A0C1484180DA81D003FD379 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0C1483180DA81D003FD379 /* XCTest.framework */; };
+		6A0C1485180DA81D003FD379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0C1461180DA81D003FD379 /* Foundation.framework */; };
+		6A0C1486180DA81D003FD379 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0C1465180DA81D003FD379 /* UIKit.framework */; };
+		6A0C148E180DA81D003FD379 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A0C148C180DA81D003FD379 /* InfoPlist.strings */; };
+		6A0C1490180DA81D003FD379 /* MobiOpalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C148F180DA81D003FD379 /* MobiOpalTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A0C1487180DA81D003FD379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A0C1456180DA81D003FD379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A0C145D180DA81D003FD379;
+			remoteInfo = MobiOpal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A0C145E180DA81D003FD379 /* MobiOpal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiOpal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0C1461180DA81D003FD379 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A0C1463180DA81D003FD379 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A0C1465180DA81D003FD379 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A0C1469180DA81D003FD379 /* MobiOpal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobiOpal-Info.plist"; sourceTree = "<group>"; };
+		6A0C146B180DA81D003FD379 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A0C146D180DA81D003FD379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A0C146F180DA81D003FD379 /* MobiOpal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobiOpal-Prefix.pch"; sourceTree = "<group>"; };
+		6A0C1470180DA81D003FD379 /* MOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOAppDelegate.h; sourceTree = "<group>"; };
+		6A0C1471180DA81D003FD379 /* MOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOAppDelegate.m; sourceTree = "<group>"; };
+		6A0C1474180DA81D003FD379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		6A0C1477180DA81D003FD379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		6A0C1479180DA81D003FD379 /* MOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOViewController.h; sourceTree = "<group>"; };
+		6A0C147A180DA81D003FD379 /* MOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOViewController.m; sourceTree = "<group>"; };
+		6A0C147C180DA81D003FD379 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6A0C1482180DA81D003FD379 /* MobiOpalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiOpalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0C1483180DA81D003FD379 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6A0C148B180DA81D003FD379 /* MobiOpalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobiOpalTests-Info.plist"; sourceTree = "<group>"; };
+		6A0C148D180DA81D003FD379 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A0C148F180DA81D003FD379 /* MobiOpalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobiOpalTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A0C145B180DA81D003FD379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0C1464180DA81D003FD379 /* CoreGraphics.framework in Frameworks */,
+				6A0C1466180DA81D003FD379 /* UIKit.framework in Frameworks */,
+				6A0C1462180DA81D003FD379 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0C147F180DA81D003FD379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0C1484180DA81D003FD379 /* XCTest.framework in Frameworks */,
+				6A0C1486180DA81D003FD379 /* UIKit.framework in Frameworks */,
+				6A0C1485180DA81D003FD379 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A0C1455180DA81D003FD379 = {
+			isa = PBXGroup;
+			children = (
+				6A0C1467180DA81D003FD379 /* MobiOpal */,
+				6A0C1489180DA81D003FD379 /* MobiOpalTests */,
+				6A0C1460180DA81D003FD379 /* Frameworks */,
+				6A0C145F180DA81D003FD379 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A0C145F180DA81D003FD379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A0C145E180DA81D003FD379 /* MobiOpal.app */,
+				6A0C1482180DA81D003FD379 /* MobiOpalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A0C1460180DA81D003FD379 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A0C1461180DA81D003FD379 /* Foundation.framework */,
+				6A0C1463180DA81D003FD379 /* CoreGraphics.framework */,
+				6A0C1465180DA81D003FD379 /* UIKit.framework */,
+				6A0C1483180DA81D003FD379 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A0C1467180DA81D003FD379 /* MobiOpal */ = {
+			isa = PBXGroup;
+			children = (
+				6A0C1470180DA81D003FD379 /* MOAppDelegate.h */,
+				6A0C1471180DA81D003FD379 /* MOAppDelegate.m */,
+				6A0C1473180DA81D003FD379 /* Main_iPhone.storyboard */,
+				6A0C1476180DA81D003FD379 /* Main_iPad.storyboard */,
+				6A0C1479180DA81D003FD379 /* MOViewController.h */,
+				6A0C147A180DA81D003FD379 /* MOViewController.m */,
+				6A0C147C180DA81D003FD379 /* Images.xcassets */,
+				6A0C1468180DA81D003FD379 /* Supporting Files */,
+			);
+			path = MobiOpal;
+			sourceTree = "<group>";
+		};
+		6A0C1468180DA81D003FD379 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A0C1469180DA81D003FD379 /* MobiOpal-Info.plist */,
+				6A0C146A180DA81D003FD379 /* InfoPlist.strings */,
+				6A0C146D180DA81D003FD379 /* main.m */,
+				6A0C146F180DA81D003FD379 /* MobiOpal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A0C1489180DA81D003FD379 /* MobiOpalTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A0C148F180DA81D003FD379 /* MobiOpalTests.m */,
+				6A0C148A180DA81D003FD379 /* Supporting Files */,
+			);
+			path = MobiOpalTests;
+			sourceTree = "<group>";
+		};
+		6A0C148A180DA81D003FD379 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A0C148B180DA81D003FD379 /* MobiOpalTests-Info.plist */,
+				6A0C148C180DA81D003FD379 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A0C145D180DA81D003FD379 /* MobiOpal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0C1493180DA81D003FD379 /* Build configuration list for PBXNativeTarget "MobiOpal" */;
+			buildPhases = (
+				6A0C145A180DA81D003FD379 /* Sources */,
+				6A0C145B180DA81D003FD379 /* Frameworks */,
+				6A0C145C180DA81D003FD379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobiOpal;
+			productName = MobiOpal;
+			productReference = 6A0C145E180DA81D003FD379 /* MobiOpal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A0C1481180DA81D003FD379 /* MobiOpalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0C1496180DA81D003FD379 /* Build configuration list for PBXNativeTarget "MobiOpalTests" */;
+			buildPhases = (
+				6A0C147E180DA81D003FD379 /* Sources */,
+				6A0C147F180DA81D003FD379 /* Frameworks */,
+				6A0C1480180DA81D003FD379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A0C1488180DA81D003FD379 /* PBXTargetDependency */,
+			);
+			name = MobiOpalTests;
+			productName = MobiOpalTests;
+			productReference = 6A0C1482180DA81D003FD379 /* MobiOpalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A0C1456180DA81D003FD379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MO;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MobiOpal;
+				TargetAttributes = {
+					6A0C1481180DA81D003FD379 = {
+						TestTargetID = 6A0C145D180DA81D003FD379;
+					};
+				};
+			};
+			buildConfigurationList = 6A0C1459180DA81D003FD379 /* Build configuration list for PBXProject "MobiOpal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A0C1455180DA81D003FD379;
+			productRefGroup = 6A0C145F180DA81D003FD379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A0C145D180DA81D003FD379 /* MobiOpal */,
+				6A0C1481180DA81D003FD379 /* MobiOpalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A0C145C180DA81D003FD379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0C1478180DA81D003FD379 /* Main_iPad.storyboard in Resources */,
+				6A0C147D180DA81D003FD379 /* Images.xcassets in Resources */,
+				6A0C1475180DA81D003FD379 /* Main_iPhone.storyboard in Resources */,
+				6A0C146C180DA81D003FD379 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0C1480180DA81D003FD379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0C148E180DA81D003FD379 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A0C145A180DA81D003FD379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0C1472180DA81D003FD379 /* MOAppDelegate.m in Sources */,
+				6A0C147B180DA81D003FD379 /* MOViewController.m in Sources */,
+				6A0C146E180DA81D003FD379 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0C147E180DA81D003FD379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0C1490180DA81D003FD379 /* MobiOpalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A0C1488180DA81D003FD379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A0C145D180DA81D003FD379 /* MobiOpal */;
+			targetProxy = 6A0C1487180DA81D003FD379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A0C146A180DA81D003FD379 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A0C146B180DA81D003FD379 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A0C1473180DA81D003FD379 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A0C1474180DA81D003FD379 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6A0C1476180DA81D003FD379 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A0C1477180DA81D003FD379 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		6A0C148C180DA81D003FD379 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A0C148D180DA81D003FD379 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A0C1491180DA81D003FD379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A0C1492180DA81D003FD379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A0C1494180DA81D003FD379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobiOpal/MobiOpal-Prefix.pch";
+				INFOPLIST_FILE = "MobiOpal/MobiOpal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A0C1495180DA81D003FD379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobiOpal/MobiOpal-Prefix.pch";
+				INFOPLIST_FILE = "MobiOpal/MobiOpal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A0C1497180DA81D003FD379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MobiOpal.app/MobiOpal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobiOpal/MobiOpal-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MobiOpalTests/MobiOpalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6A0C1498180DA81D003FD379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MobiOpal.app/MobiOpal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobiOpal/MobiOpal-Prefix.pch";
+				INFOPLIST_FILE = "MobiOpalTests/MobiOpalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A0C1459180DA81D003FD379 /* Build configuration list for PBXProject "MobiOpal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0C1491180DA81D003FD379 /* Debug */,
+				6A0C1492180DA81D003FD379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A0C1493180DA81D003FD379 /* Build configuration list for PBXNativeTarget "MobiOpal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0C1494180DA81D003FD379 /* Debug */,
+				6A0C1495180DA81D003FD379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A0C1496180DA81D003FD379 /* Build configuration list for PBXNativeTarget "MobiOpalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0C1497180DA81D003FD379 /* Debug */,
+				6A0C1498180DA81D003FD379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A0C1456180DA81D003FD379 /* Project object */;
+}

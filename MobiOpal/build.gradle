@@ -1,0 +1,24 @@
+buildscript {
+    
+    configurations.all {
+        resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+    } 	
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        maven {
+            url 'https://oss.sonatype.org/content/repositories/snapshots'
+        }
+    }
+
+    def flowVer = System.getProperty('flow.version') ?: System.getenv('FLOW_VERSION') ?: '1.1-SNAPSHOT'
+    println "Using Apphance Flow version: $flowVer"
+    
+    dependencies {
+        classpath("com.apphance.flow:apphance-flow:$flowVer")
+    }
+}
+ 
+apply plugin: 'apphance-flow'
+

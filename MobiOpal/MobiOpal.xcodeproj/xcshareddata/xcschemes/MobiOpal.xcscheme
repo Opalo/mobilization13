@@ -178,7 +178,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "echo &quot;ARCHIVE POST START&quot;&#10;export&#10;echo &quot;ARCHIVE POST END&quot;">
+               scriptText = "echo CI_ARCHIVE_PATH=&quot;$ARCHIVE_PATH&quot;">
             </ActionContent>
          </ExecutionAction>
       </PostActions>

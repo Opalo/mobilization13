@@ -33,91 +33,82 @@
 	<body>
 
 		<div class="reveal">
-
-			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
 					<h1>Co można wydusić z</h1>
 					<h1 style="margin-top: 40px">xcode'a torturami?</h1>
-					<br/>
-					<p>
-						<small>Maciej Opała</small>
-					</p>
 				</section>
 
 				<section>
 					<h2>Tytułem wstępu:</h2>
 					<br/>
 					<ul>
-						<!-- TODO margins -->
-						<li>Apphance Flow</li>
-						<li>Continuous Integration dla aplikacji mobilnych</li>
-						<li>Wsparcie zarówno dla iOS'a jak i Androida</li>
-						<li>Automatyczna integracja z Apphancem</li>
-						<li>Budowanie wielu wariantów, wykonywanie testów, statyczna analiza kodu, etc.</li>
+						<li style="padding-bottom: 20px">Apphance Flow</li>
+						<li style="padding-bottom: 20px">Continuous Integration dla aplikacji mobilnych</li>
+						<li style="padding-bottom: 20px">Wsparcie zarówno dla iOS'a jak i Androida</li>
+						<li style="padding-bottom: 20px">Automatyczna integracja z Apphancem</li>
+						<li style="padding-bottom: 20px">Budowanie wielu wariantów</li> 
+						<li style="padding-bottom: 20px">Wykonywanie testów, statyczna analiza kodu, etc.</li>
+						<li style="padding-bottom: 20px">Implementacja w Gradle</li>
 					</ul>
 				</section>
 
 				<section>
 					<h2>Apphance Flow, a iOS</h2>
-					<!-- TODO img of jenkins artifacts -->
 					<br/>
 					<div style="width: 100%">
 						<div style="width: 50%; float:left;">
-							<!-- TODO marginesy -->
 							<ul>
-								<li>ipa</li>
-								<li>mobileprovision</li>
-								<li>source zip</li>
-								<li>ahSYM</li>
-								<li>dSYM zip</li>
-								<li>xcarchive zip</li>
-								<li>manifest</li>
+								<li style="padding-bottom: 20px">ipa</li>
+								<li style="padding-bottom: 20px">mobileprovision</li>
+								<li style="padding-bottom: 20px">source zip</li>
+								<li style="padding-bottom: 20px">ahSYM</li>
+								<li style="padding-bottom: 20px">dSYM zip</li>
+								<li style="padding-bottom: 20px">xcarchive zip</li>
+								<li style="padding-bottom: 20px">manifest</li>
 							</ul>
 						</div>	
 						<div style="width: 50%; float:left;">
 							<img src="img/artifacts.png">		
 						</div>
 					</div>
-					<!-- TODO - jak zbudować w/w artefakty? style.. -->
 				</section>
 
 				<section>
-					<h2>Build action</h2>
+					<h2 style="padding-bottom: 20px">Build action</h2>
 					<ul>
-						<li>dużo 'zgadywania'</li>
-						<li>jaka struktura katalogu 'build'?</li>
-						<li>jakie sdk? jaka konfiguracja?</li>
-						<li>nie dostarcza najważniejszego artefaktu</li>
+						<li style="padding-bottom: 20px">dużo 'zgadywania'</li>
+						<li style="padding-bottom: 20px">jaka struktura katalogu 'build'?</li>
+						<li style="padding-bottom: 20px">jakie sdk? jaka konfiguracja?</li>
+						<li style="padding-bottom: 20px">nie dostarcza najważniejszego artefaktu</li>
 					</ul>
 				</section>
 
 				<section>
-					<h2>Archive action</h2>
+					<h2 style="padding-bottom: 20px">Archive action</h2>
 					<ul>
-						<li>xcarchive stanowi wartość dodaną - App Store</li>
-						<li>reszta artefaktów - na podstawie xcarchive</li>
-						<li>finalny produkt - na pewno dostaniemy to samo co klient</li>
+						<li style="padding-bottom: 20px">xcarchive stanowi wartość dodaną - App Store</li>
+						<li style="padding-bottom: 20px">reszta artefaktów - na podstawie xcarchive</li>
+						<li style="padding-bottom: 20px">finalny produkt - na pewno dostaniemy to samo co klient</li>
 					</ul>
 				</section>
 
 				<section>
-					<h2>Tortury</h2>
+					<h2 style="padding-bottom: 20px">Tortury</h2>
 					<ul>
-						<li>jak dotrzeć do xcarchive'a?</li>
-						<li>jak znaleźć odpowiedni plik *.app?</li>
-						<li>jak znaleźć odpowiedni folder dSYM?</li>
-						<li>scheme?</li>
-						<li>target?</li>
-						<li>configuration?</li>
-						<li>plist?</li>
+						<li style="padding-bottom: 20px">jak znaleźć do xcarchive'a?</li>
+						<li style="padding-bottom: 20px">jak wybrać odpowiedni folder *.app?</li>
+						<li style="padding-bottom: 20px">jak wybrać odpowiedni folder dSYM?</li>
+						<li style="padding-bottom: 20px">scheme?</li>
+						<li style="padding-bottom: 20px">target?</li>
+						<li style="padding-bottom: 20px">configuration?</li>
+						<li style="padding-bottom: 20px">plist?</li>
 					</ul>
 				</section>
 
 				<section>
-					<h2>Archive - Post Action</h2>
-					<pre><code data-trim contenteditable>xcodebuild -scheme &lt;name&gt; clean archive</code></pre>
-					<!-- TODO formatowanie -->
+					<h2 style="padding-bottom: 20px">Archive - Post Action</h2>
+					<pre style="padding-bottom: 40px"><code data-trim contenteditable>xcodebuild -scheme &lt;name&gt; clean archive</code></pre>
 					<pre>&lt;PostActions&gt;
 	&lt;ExecutionAction 
 		ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction"&gt;
